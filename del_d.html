@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del d</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fik4gaj.css">
+    <script is:inline src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	<script is:inline src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+</head>
+<body data-opgave="d">
+    <header>
+        <nav>
+            <ul class="desktop_menu">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="del_a.html">Del A</a></li>
+                <li><a href="del_b.html">Del B</a></li>
+                <li><a href="del_c.html">Del C</a></li>
+                <li><a href="del_d.html">Del D</a></li>
+            </ul>
+            <lottie-player class="burger-menu-button" id="burger" speed="4" src="https://assets6.lottiefiles.com/packages/lf20_pDIAHc.json"></lottie-player>
+            <ul class="menu-list">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="del_a.html">Del A</a></li>
+                <li><a href="del_b.html">Del B</a></li>
+                <li><a href="del_c.html">Del C</a></li>
+                <li><a href="del_d.html">Del D</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="beskrivelse">
+        <h1>Del D</h1>
+        <p>På Del D-siden er der implementeret media & container queries for at opnå et responsivt layout, der tilpasser sig forskellige skærmstørrelser. Her beskrives brugen af media queries i sammenhæng med anvendelsen af CSS Flexbox og CSS Grid.</p>
+        <p>På det grundlæggende niveau viser standardlayoutet en række kort beskrivelser af personer med tilhørende billeder. Hver artikel er farvekodet ved hjælp af data-attributter.</p>
+        <p>Når kortet er mindre end 400px i bredden, justeres minimumshøjden for billederne og størrelsen af den første afsnit for at forbedre læsbarheden. Billederne forbliver i en kolonneorientering ved hjælp af Flexbox, hvilket sikrer, at de forbliver stablede og nemt kan rulles igennem.</p>
+        <p>På skærme med en bredde over 900px skifter layoutet til et grid-layout. Kortene organiseres nu i rækker og kolonner ved hjælp af CSS Grid. Dette optimerer udnyttelsen af den ekstra skærmplads ved at vise flere kort side om side og forbedrer samtidig strukturen af layoutet.</p>
+    </section>
+    <div class="wrapper">
+        <div class="wrapper_card">
+            <article data-color="light">
+                <div>
+                    <img src="img/person_1.webp" alt="Billede af Person">
+                    <div>
+                        <h2>Tiffany Charles</h2>
+                        <h3>Ebony Wood MD</h3>
+                    </div>
+                </div>
+                <p>Ullamco aute anim occaecat cupidatat tempor fugiat deserunt Lorem nostrud Lorem occaecat aliqua ut. Mollit minim duis minim id exercitation.</p>
+                <p>Cillum mollit ut reprehenderit ut ullamco laboris. Duis consequat cupidatat consequat elit excepteur consequat irure officia exercitation. Ut Lorem occaecat occaecat aliqua eiusmod minim dolor adipisicing ullamco ut aliquip. Incididunt fugiat dolore laborum nisi adipisicing proident magna labore in excepteur commodo. Reprehenderit laboris cillum pariatur nisi quis. Proident est cillum aliquip Lorem cillum.</p>
+            </article>
+        </div>
+        <div class="wrapper_card">
+            <article data-color="dark">
+                <div>
+                    <img src="img/person_2.webp" alt="Billede af Person">
+                    <div>
+                        <h2>Tyler Williamson</h2>
+                        <h3>Waller-Walker</h3>
+                    </div>
+                </div>
+                <p>Ullamco aute anim occaecat cupidatat tempor fugiat deserunt Lorem nostrud Lorem occaecat aliqua ut. Mollit minim duis minim id exercitation.</p>
+                <p>Cillum mollit ut reprehenderit ut ullamco laboris. Duis consequat cupidatat consequat elit excepteur consequat irure officia exercitation. Amet mollit quis non esse aliquip qui est ullamco.</p>
+            </article>
+        </div>
+        <div class="wrapper_card">
+            <article data-color="lightest">
+                <div>
+                    <img src="img/person_3.webp" alt="Billede af Person">
+                    <div>
+                        <h2>Tiffany Lee</h2>
+                        <h3>Waller-Walker</h3>
+                    </div>
+                </div>
+                <p>Ullamco aute anim occaecat cupidatat tempor fugiat deserunt Lorem nostrud Lorem occaecat aliqua ut.</p>
+                <p>Cillum mollit ut reprehenderit ut ullamco laboris. Duis consequat cupidatat consequat elit excepteur consequat irure officia exercitation. Amet mollit quis non esse aliquip qui est ullamco.</p>
+            </article>
+        </div>
+        <div class="wrapper_card">
+            <article data-color="dark">
+                <div>
+                    <img src="img/person_4.webp" alt="Billede af Person">
+                    <div>
+                        <h2>George Johnson</h2>
+                        <h3>Lowe, Gilbert and Campbell</h3>
+                    </div>
+                </div>
+                <p>Ullamco aute anim occaecat cupidatat tempor fugiat deserunt Lorem nostrud Lorem occaecat aliqua ut. Mollit minim duis minim id exercitation. Pariatur do incididunt elit non amet dolore ullamco.</p>
+                <p>Cillum mollit ut reprehenderit ut ullamco laboris. Duis consequat cupidatat consequat elit excepteur consequat irure officia exercitation. Sint enim ipsum ad nisi officia commodo Lorem anim. Fugiat commodo magna velit cupidatat. Aliquip ea in ipsum tempor qui aute excepteur tempor eiusmod ipsum minim laboris cupidatat. Est commodo anim consequat do consectetur. Fugiat esse qui quis sint laborum nostrud voluptate mollit. Commodo cupidatat elit adipisicing occaecat irure veniam.</p>
+            </article>
+        </div>
+        <div class="wrapper_card">
+            <article data-color="lightest">
+                <div>
+                    <img src="img/person_5.webp" alt="Billede af Person">
+                    <div>
+                        <h2>Stephanie Santiago</h2>
+                        <h3>Bowen-Kim</h3>
+                    </div>
+                </div>
+                <p>Ullamco aute anim occaecat cupidatat tempor fugiat deserunt Lorem nostrud Lorem occaecat aliqua ut. Mollit minim duis minim id exercitation. Commodo quis amet id est anim est dolor.</p>
+                <p>Cillum mollit ut reprehenderit ut ullamco laboris. Duis consequat cupidatat consequat elit excepteur consequat irure officia exercitation. Enim aute velit irure in incididunt tempor deserunt tempor aliquip. Est consectetur ipsum occaecat consectetur ad minim quis. Eu anim ex Lorem tempor occaecat deserunt reprehenderit aute ullamco ipsum exercitation consectetur est ad. Deserunt cupidatat laborum pariatur id aliqua.</p>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <p>Jacob Funch Jørgensen</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

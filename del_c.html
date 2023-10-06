@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del c</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fik4gaj.css">
+    <script is:inline src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	<script is:inline src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+</head>
+<body data-opgave="c">
+    <header>
+        <nav>
+            <ul class="desktop_menu">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="del_a.html">Del A</a></li>
+                <li><a href="del_b.html">Del B</a></li>
+                <li><a href="del_c.html">Del C</a></li>
+                <li><a href="del_d.html">Del D</a></li>
+            </ul>
+            <lottie-player class="burger-menu-button" id="burger" speed="4" src="https://assets6.lottiefiles.com/packages/lf20_pDIAHc.json"></lottie-player>
+            <ul class="menu-list">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="del_a.html">Del A</a></li>
+                <li><a href="del_b.html">Del B</a></li>
+                <li><a href="del_c.html">Del C</a></li>
+                <li><a href="del_d.html">Del D</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="beskrivelse">
+        <h1>Del C</h1>
+        <p>Billedet til højre i "article" er blevet tilpasset med en maksimal højde (max-height) og bruger object-fit: cover, hvilket sikrer, at billedet skalerer for at passe ind i sin container og samtidig opretholder dets oprindelige dimensioner. Aspect-ratio er også blevet anvendt til at ændre billedets bredde-til-højde-forhold.</p>
+        <p>Media queries er blevet implementeret for at ændre layout og typografi afhængigt af skærmstørrelsen. Ved skærmbredder over 600px justeres overskriftens skriftstørrelse, og artiklens layout omstruktureres til et to-kolonners grid. Billedet til højre tilpasses med en ændret aspect-ratio og en øget maksimal højde for at imødekomme større skærme. Samtidig får den første div i artiklen en baggrundsfarve for visuelt at fremhæve sektionen.</p>
+        <p>Når skærmbredden overstiger 1125px, øges overskriftens skriftstørrelse og linjeafstand yderligere for at tilpasse sig større skærme. Artiklen omstruktureres til et andet grid-layout med en større sidefotorække og ekstra plads til teksten. Venstremargenen for artiklen tilpasses yderligere for at opnå en mere effektiv centreringsvirkning.</p>
+    </section>
+    <article>
+        <div>
+            <div></div>
+            <img src="img/background.webp" alt="Stue med sofa">
+        </div>
+        <div>
+            <h2>Lorem <br> Ipsum Dolor</h2>
+            <div>
+                <p>Laboris consectetur ipsum fugiat sit irure exercitation adipisicing. Dolor fugiat id esse pariatur voluptate reprehenderit commodo reprehenderit. Veniam ea nulla consequat do cupidatat do in esse incididunt tempor qui. Commodo culpa ullamco culpa velit officia do duis</p>
+                <div>
+                    <a href="#">Lorem Ipsum</a>
+                    <img src="icons/angle-right-b.svg" alt="Ikon">
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <p>Jacob Funch Jørgensen</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

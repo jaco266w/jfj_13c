@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del b</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fik4gaj.css">
+    <script is:inline src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	<script is:inline src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+</head>
+<body data-opgave="b">
+    <header>
+        <nav>
+            <ul class="desktop_menu">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="del_a.html">Del A</a></li>
+                <li><a href="del_b.html">Del B</a></li>
+                <li><a href="del_c.html">Del C</a></li>
+                <li><a href="del_d.html">Del D</a></li>
+            </ul>
+            <lottie-player class="burger-menu-button" id="burger" speed="4" src="https://assets6.lottiefiles.com/packages/lf20_pDIAHc.json"></lottie-player>
+            <ul class="menu-list">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="del_a.html">Del A</a></li>
+                <li><a href="del_b.html">Del B</a></li>
+                <li><a href="del_c.html">Del C</a></li>
+                <li><a href="del_d.html">Del D</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="beskrivelse">
+        <h1>Del B</h1>
+        <p>På Del b-siden bruger jeg både Flexbox og Grid Layout i CSS til at organisere kortene. Dette layout tilpasser sig dynamisk afhængigt af skærmstørrelsen ved hjælp af media queries.</p>
+        <p>Ved skærmstørrelser under 625px bruger jeg Flexbox til at arrangere kortene i en enkelt kolonne. Dette giver en effektiv udnyttelse af pladsen og forbedrer læsbarheden på mindre skærme.</p>
+        <p>Når skærmbredden overstiger 625px, skifter jeg til Grid Layout. Kortene placeres side om side i to kolonner, hvilket maksimerer skærmpladsen og skaber et mere horisontalt layout.</p>
+        <p>Endelig, ved en skærmbredde på 900px eller mere, foretager jeg yderligere tilpasninger. Jeg ændrer typografien og justerer elementernes placering for at sikre en attraktiv og letlæselig visuel oplevelse på større skærme.</p>
+    </section>
+    <section class="wrapper">
+        <div class="card_1">
+            <img src="img/person_1.webp" alt="Person 1">
+            <div>
+                <p>Report For</p>
+                <h2>Jane Doeson</h2>
+            </div>
+            <div class="radio_wrapper">
+                <div>
+                    <input type="radio" id="daily">
+                    <label for="daily">Daily</label>
+                </div>
+                <div>
+                    <input checked type="radio" id="weekly">
+                    <label for="weekly">Weekly</label>
+                </div>
+                <div>
+                    <input type="radio" id="monthly">
+                    <label for="monthly">Montly</label>
+                </div>
+            </div>
+        </div>
+        <div class="card_2">
+            <div>
+                <p>Work</p>
+                <img src="icons/ellipsis-h.svg" alt="More">
+            </div>
+            <div>
+                <p>24hrs</p>
+                <p>Last Week: 26hrs</p>
+            </div>
+        </div>
+        <div class="card_2">
+            <div>
+                <p>Excersice</p>
+                <img src="icons/ellipsis-h.svg" alt="More">
+            </div>
+            <div>
+                <p>5hrs</p>
+                <p>Last Week: 4.5hrs</p>
+            </div>
+        </div>
+        <div class="card_2">
+            <div>
+                <p>Play</p>
+                <img src="icons/ellipsis-h.svg" alt="More">
+            </div>
+            <div>
+                <p>10hrs</p>
+                <p>Last Week: 8hrs</p>
+            </div>
+        </div>
+        <div class="card_2">
+            <div>
+                <p>Social</p>
+                <img src="icons/ellipsis-h.svg" alt="More">
+            </div>
+            <div>
+                <p>6.5hrs</p>
+                <p>Last Week: 4hrs</p>
+            </div>
+        </div>
+        <div class="card_2">
+            <div>
+                <p>Study</p>
+                <img src="icons/ellipsis-h.svg" alt="More">
+            </div>
+            <div>
+                <p>12.5hrs</p>
+                <p>Last Week: 14hrs</p>
+            </div>
+        </div>
+        <div class="card_2">
+            <div>
+                <p>Self Care</p>
+                <img src="icons/ellipsis-h.svg" alt="More">
+            </div>
+            <div>
+                <p>3hrs</p>
+                <p>Last Week: 2hrs</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Jacob Funch Jørgensen</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
